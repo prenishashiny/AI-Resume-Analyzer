@@ -11,6 +11,22 @@ AI Resume Analyzer is a web application built using Python and Streamlit that an
 * ATS-style resume analysis
 * Interactive Streamlit interface
 
+## Screenshots
+
+### Home Page
+
+![Home]()
+
+### Resume Upload
+
+![Upload](YOUR_SECOND_SCREENSHOT_NAME.png)
+
+### Analysis Results
+
+![Results](YOUR_THIRD_SCREENSHOT_NAME.png)
+
+* 
+
 ## Technologies Used
 
 * Python
