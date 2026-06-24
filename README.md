@@ -1,14 +1,29 @@
 # AI Resume Analyzer
 
-AI Resume Analyzer is a web application built using Python and Streamlit that analyzes PDF resumes and identifies technical skills.
+AI Resume Analyzer is a web application built using Python and Streamlit that analyzes PDF resumes, extracts text, detects technical skills, and evaluates resumes against job descriptions.
 
 ## Features
 
-* Upload Resume in PDF format
-* Extract text from PDF
-* Detect technical skills
-* Display extracted content
-* User-friendly interface
+* Upload resumes in PDF format
+* Extract text from uploaded resumes
+* Detect technical skills automatically
+* Compare resumes with job descriptions
+* Provide ATS-style resume analysis
+* Simple and interactive user interface
+
+## Screenshots
+
+### Home Page
+
+![Home](Screenshot%202026-06-24%20181938.png)
+
+### Resume Upload
+
+![Upload](Screenshot%202026-06-24%20181955.png)
+
+### Analysis Results
+
+![Results](Screenshot%202026-06-24%20182012.png)
 
 ## Technologies Used
 
@@ -16,28 +31,58 @@ AI Resume Analyzer is a web application built using Python and Streamlit that an
 * Streamlit
 * PyPDF
 
-## How It Works
+## Installation
 
-1. Upload a PDF resume.
-2. The application extracts text from the PDF.
-3. Skills are matched against a predefined skill database.
-4. Detected skills are displayed to the user.
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-## Project Structure
+## Live Demo
 
-AI-Resume-Analyzer/
+# AI Resume Analyzer
 
-├── app.py
+AI Resume Analyzer is a web application built using Python and Streamlit that analyzes PDF resumes, extracts text, detects technical skills, and evaluates resumes against job descriptions.
 
-├── skills.py
+## Features
 
-├── requirements.txt
+* Upload resumes in PDF format
+* Extract text from uploaded resumes
+* Detect technical skills automatically
+* Compare resumes with job descriptions
+* Provide ATS-style resume analysis
+* Simple and interactive user interface
+
+## Screenshots
+
+### Home Page
+
+![Home](Screenshot%202026-06-24%20181938.png)
+
+### Resume Upload
+
+![Upload](Screenshot%202026-06-24%20181955.png)
+
+### Analysis Results
+
+![Results](Screenshot%202026-06-24%20182012.png)
+
+## Technologies Used
+
+* Python
+* Streamlit
+* PyPDF
 
 ## Installation
 
+```bash
 pip install -r requirements.txt
-
 streamlit run app.py
+```
+
+## Live Demo
+
+https://ai-resume-analyzer-byvpbp2pyhdqlryz6kzoml.streamlit.app/
 
 
-Prenisha Shiny
+
